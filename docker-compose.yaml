@@ -1,0 +1,30 @@
+version: '3.1'
+services:
+  php:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+    - 81:80
+    volumes:
+    - ./src:/var/www/html/
+
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    ports:
+      - 33063:3306
+    volumes: 
+      - inv-db_data:/var/lib/mysql-inv
+
+    
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 3708:8080
+
+volumes:
+  inv-db_data:      
