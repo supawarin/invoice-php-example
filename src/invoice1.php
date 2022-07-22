@@ -230,7 +230,7 @@ $termsHTML = '
 <table class="detail">
 <tr>
 <td >Bank name :</td>
-<td ><img src="ing.png" width="20"  />ING BELGIUM</td>
+<td ><img src="img/ing.png" width="20"  />ING BELGIUM</td>
 </tr>
 
 <tr>

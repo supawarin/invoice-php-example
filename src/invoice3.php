@@ -179,7 +179,7 @@ conditions, laws and regulations governing its payments.</p>
 <table class="detail">
 <tr style="background-color: #eef2f7;">
 <td >Bank name :</td>
-<td ><img src="ing.png" width="20"  />ING BELGIUM</td>
+<td ><img src="img/ing.png" width="20"  />ING BELGIUM</td>
 </tr>
 
 <tr>
